@@ -29,6 +29,7 @@ html {
 
 .container {
     padding: 96px 0;
+    display: flex;
 }
 
 a {
@@ -399,7 +400,7 @@ header {
 
 .header__img {
     width: 100%;
-    max-width: 768px;
+    max-width: 800px;
 }
 
 /* FEATURES */ 
@@ -431,7 +432,7 @@ header {
 }
 
 .feature {
-    width: calc(100% - 3);
+    width: calc(100% / 3);
 }
 
 .feature__row {
@@ -476,15 +477,7 @@ header {
   padding: 16px;
 }
 
-.features__blob {
-  transform: translateX(96px) translateY(192px) scaleX(1) scaleY(1);
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 16rem;
-  opacity: 0.25;
-  padding: 16px; 
-}
+
 
 /* QUALITY WORK */
 
@@ -613,6 +606,7 @@ header {
   color: red; /* currentColor will inherit this */
   fill: currentColor;
 }
+
 
 /* VALUES */
 
