@@ -718,7 +718,7 @@ header {
   display: flex;
   width: 100%;
   max-width: 24rem;
-  flex-direction: column;
+  flex-direction: row;
   border-radius: 0.5rem;
   background-color: rgb(255 255 255);
   padding-left: 2rem;
@@ -739,6 +739,7 @@ header {
   height: 0.5rem;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
+  
 }
 
 .plan__top {
@@ -818,6 +819,7 @@ header {
   font-size: 0.875rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  
 }
 
 .plan__button:hover {
@@ -841,8 +843,8 @@ header {
 .plan:nth-child(2) {
   background: linear-gradient(
     135deg,
- color: red 0%,
-    rgb(102, 126, 234) 100%
+     rgb(7. 1, 1) 0%,
+    rgb(7, 1, 1) 100%
   );
 }
 
@@ -860,8 +862,8 @@ header {
   color: #f7fafc;
   background: linear-gradient(
     115deg,
-    rgb(245, 101, 101) 0%,
-    rgb(254, 178, 178) 100%
+    rgb(221, 8, 8) 0%,
+    rgb(11, 0, 0) 100%
   );
 }
 
@@ -911,6 +913,12 @@ header {
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
+}
+
+
+
+.section__tag {
+    color: red;
 }
 
 /* TESTIMONIALS */
