@@ -685,11 +685,13 @@ header {
   width: 36px;
   height: 36px;
 }
+
 .value__name {
   margin-left: 12px;
   font-size: 20px;
   font-weight: bold;
   color: #243e63;
+  
 }
 .value__para {
   margin-top: 16px;
