@@ -718,7 +718,7 @@ header {
   display: flex;
   width: 100%;
   max-width: 24rem;
-  flex-direction: row;
+  flex-direction: column;
   border-radius: 0.5rem;
   background-color: rgb(255 255 255);
   padding-left: 2rem;
@@ -726,7 +726,7 @@ header {
   margin-right: 2rem;
   padding-top: 0.5rem;
   text-align: center;
-    color: rgb(26 32 44);
+  color: rgb(26 32 44);
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
     rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
@@ -739,7 +739,6 @@ header {
   height: 0.5rem;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
-  
 }
 
 .plan__top {
@@ -819,7 +818,6 @@ header {
   font-size: 0.875rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  
 }
 
 .plan__button:hover {
@@ -834,23 +832,22 @@ header {
   color: #f7fafc;
   background: linear-gradient(
     115deg,
-    rgb(0, 9, 9) 0%,
-    red 100%
+    rgb(239, 4, 11) 0%,
+    rgb(0, 8, 7) 100%
   );
 }
-
 
 .plan:nth-child(2) {
   background: linear-gradient(
     135deg,
-     rgb(7. 1, 1) 0%,
-    rgb(7, 1, 1) 100%
+    rgb(223, 5, 5) 0%,
+    rgb(0, 2, 10) 100%
   );
 }
 
 .plan:nth-child(2) .plan__button {
-  color: #070114;
-  background-color: #f7fafc;
+  color: #f3eeee;
+  background-color: #cc0909;
 }
 
 .plan:nth-child(2) .plan__stripes {
@@ -862,8 +859,8 @@ header {
   color: #f7fafc;
   background: linear-gradient(
     115deg,
-    rgb(221, 8, 8) 0%,
-    rgb(11, 0, 0) 100%
+    rgb(245, 3, 3) 0%,
+    rgb(8, 0, 0) 100%
   );
 }
 
@@ -892,8 +889,8 @@ header {
 }
 
 .plan:nth-child(2) .plan__middle {
-  border-top: 2px solid rgb(102, 126, 234);
-  border-bottom: 2px solid rgb(102, 126, 234);
+  border-top: 2px solid rgb(0, 2, 11);
+  border-bottom: 2px solid rgb(0, 2, 8);
 }
 
 .plans__blob {
