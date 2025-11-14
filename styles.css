@@ -1440,6 +1440,7 @@ footer {
   .feature {
     width: auto;
     max-width: 384px;
+    width: 100%;
   }
 
   .section__para {
