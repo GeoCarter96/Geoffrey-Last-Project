@@ -39,7 +39,11 @@ a {
 
 img {     overflow-clip-margin: content-box;
     overflow: clip;
-    width: 100%;
+    
+}
+
+img {
+  width: 100%;
 }
 
 h1 {
