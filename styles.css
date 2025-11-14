@@ -1007,7 +1007,7 @@ section #testimonials {
   border-radius: 50%;
 }
 .testimonial__role {
-  color: red;
+  color: grey;
   font-weight: 500;
   line-height: 1.5;
 }
