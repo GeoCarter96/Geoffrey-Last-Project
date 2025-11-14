@@ -10,7 +10,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    color: color(#243e63 red green blue);
+    color: #243e63;
 }
 
 html {
@@ -37,7 +37,8 @@ a {
     text-decoration: none;
 }
 
-img {
+img {     overflow-clip-margin: content-box;
+    overflow: clip;
     width: 100%;
 }
 
@@ -326,7 +327,7 @@ header .row {
 .header__email--btn {
     z-index: 2;
     margin: 8px;
-    height: calc(100%-16px);
+    height: calc(100% - 16px);
     border-radius: 500px;
     width: 160px;
     border: none;
@@ -524,7 +525,7 @@ header {
   bottom: 0px;
   fill: red;
   --tw-text-opacity: 1;
-  color: rgba(100, 21, 255, var(--tw-text-opacity));
+  color: red ( var(--tw-text-opacity));
   z-index: 0;
   display: block;
 }
