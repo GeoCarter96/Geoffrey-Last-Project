@@ -25,11 +25,13 @@ html {
 
 .row__narrow {
     width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 .container {
     padding: 96px 0;
-    display: flex;
+    
 }
 
 a {
@@ -42,9 +44,7 @@ img {     overflow-clip-margin: content-box;
     
 }
 
-img {
-  width: 100%;
-}
+
 
 h1 {
     font-size: 48px;
